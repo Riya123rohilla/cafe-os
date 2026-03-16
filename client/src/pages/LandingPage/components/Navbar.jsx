@@ -25,16 +25,6 @@ const Navbar = () => {
         <li onClick={() => scrollTo('features')}>Features</li>
         <li onClick={() => scrollTo('how-it-works')}>How it Works</li>
         <li onClick={() => scrollTo('benefits')}>Benefits</li>
-        <li>
-          <button className={styles.btnOutline} onClick={() => navigate('/login')}>
-            Login
-          </button>
-        </li>
-        <li>
-          <button className={styles.btnPrimary} onClick={() => navigate('/signup')}>
-            Signup
-          </button>
-        </li>
       </ul>
     </nav>
   );
