@@ -1,0 +1,16 @@
+export const T = {
+  brown: "#6F4E37",
+  brownDark: "#3E2723",
+  brownLight: "#8B6349",
+  beige: "#F5F5DC",
+  cream: "#FFF5E1",
+  creamDark: "#F0E6CC",
+  white: "#FFFFFF",
+  gold: "#C8972A",
+  goldLight: "#E8C97A",
+  success: "#4CAF6B",
+  danger: "#E05C5C",
+  text: "#3E2723",
+  textMuted: "#8B6349",
+  border: "#E8DCC8",
+};

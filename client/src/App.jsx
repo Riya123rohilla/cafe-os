@@ -1,11 +1,15 @@
 import './App.css'
 import RootRouter from './routes/RootRouter'
+import GlobalStyle from './components/GlobalStyle'
 
 function App() {
   return (
-    <div className="App">
-      <RootRouter />
-    </div>
+    <>
+      <GlobalStyle />
+      <div className="App">
+        <RootRouter />
+      </div>
+    </>
   )
 }
 
